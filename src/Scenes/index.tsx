@@ -48,7 +48,7 @@ function IphoneChekerView() {
         });
         setAv(a);
       })
-      .catch((e) => console.error(e));
+      .catch((e) => console.error("Error!!:", e));
   };
 
   useEffect(() => {
